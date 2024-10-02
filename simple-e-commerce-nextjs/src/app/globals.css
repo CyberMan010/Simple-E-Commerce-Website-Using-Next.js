@@ -1,27 +1,35 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-orange-primary: #FF8C00;
+  --color-orange-secondary: #FFA500;
+  --color-orange-light: #FFD700;
+  --color-orange-dark: #FF4500;
+  --color-text-primary: #333333;
+  --color-text-secondary: #666666;
+  --color-background: #FFF5E6;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Arial', sans-serif;
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.btn-primary {
+  @apply bg-orange-500 text-white px-4 py-2 rounded hover:bg-orange-600 transition duration-300;
+}
+
+.btn-secondary {
+  @apply bg-orange-200 text-orange-800 px-4 py-2 rounded hover:bg-orange-300 transition duration-300;
+}
+
+.card {
+  @apply bg-white rounded-lg shadow-md overflow-hidden border border-orange-200;
+}
+
+.card-hover {
+  @apply transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg;
 }
