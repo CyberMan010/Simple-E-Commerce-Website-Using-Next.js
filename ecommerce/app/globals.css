@@ -1,0 +1,96 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+
+
+
+/* styles/globals.css */
+/* 
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.post {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: #fafafa;
+}
+
+.post h1 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.post p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.separator {
+  border-top: 1px solid #ddd;
+  margin: 10px 0;
+} */
